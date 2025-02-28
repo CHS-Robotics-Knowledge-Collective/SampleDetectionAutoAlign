@@ -19,9 +19,8 @@ import org.openftc.easyopencv.OpenCvCameraRotation;
 import org.openftc.easyopencv.OpenCvWebcam;
 
 
-@Disabled
 @Autonomous(name="Pipeline test")
-public class PipelineTester extends LinearOpMode{
+public class ServoPipelineTester extends LinearOpMode{
     final int cameraWidth = 1280;
     final int cameraHeight = 720;
 
